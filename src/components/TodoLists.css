@@ -1,0 +1,46 @@
+.todoContrainer {
+	text-align: center;
+}
+
+.todoContrainer #empty {
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.todoContrainer button {
+	height: 50px;
+	width: 80px;
+	border-radius: 5px;
+	border: 0;
+	background-color: #009688;
+	cursor: pointer;
+	font-weight: bolder;
+	color: #fff;
+}
+
+.todolist {
+	text-align: left;
+	background-color: #fff;
+	margin-bottom: 10px;
+	position: relative;
+	border-radius: 5px;
+	padding: 5px 10px;
+}
+
+.todolist span .faicons {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.todolist #title {
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+.todolist #date {
+	font-size: 12px;
+	text-align: right;
+}
